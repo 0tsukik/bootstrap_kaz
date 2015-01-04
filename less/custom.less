@@ -1,0 +1,98 @@
+/* Global styling */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.no-gutter-left > [class*='col-'] {
+    padding-left:0;
+}
+.no-margin {
+	margin: 0;
+}
+
+/* With * being xs, sm, md, or lg */
+.visible-*-block {}
+.visible-*-inline {}
+.visible-*-inline-block {}
+
+/* header styling */
+.logo img {
+	padding: 10px @font-size-large;
+}
+.tagline {
+	font-size: 1.5em;
+	text-align:center;
+	padding-top: 1em;
+}
+/* modal styling */
+.modal-body .pull-left {
+  padding-right: @modal-inner-padding;
+	padding-bottom: @modal-inner-padding;
+}
+.modal-footer {
+		clear: both;
+	}
+	
+/* calender styling */
+.cal-month .btn .btn-default {
+	color: @btn-link-disabled-color;
+}
+/* panel styling */
+.panel-heading h3 {
+	margin: auto 0;
+}
+/* form styling */
+.form-group button {
+	margin-top: 0	;
+}
+.form-panel .col-lg-10 {
+	padding-left: 0;
+}
+.form-links {
+	margin-top: 5px;
+}
+.form-group .help-block {
+	margin-bottom: 0;
+}
+
+/* profile styling */
+.profile dt {
+  color:@gray-lightmore;
+  border-top: 1px solid @gray-lighter;
+}
+.table-information > tbody > tr:first-child > td {
+    border: none;
+}
+
+/* Table Hack for responsive table */
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+
+@media screen and (min-width: @screen-sm-min) {
+/* jumbotron styling */	
+	.tabline {
+			font-size: 2em;
+			text-align: right;
+			padding-top: 1.6em;
+		}
+    .jumbotron h1,
+    .jumbotron .h1 {
+      font-size: (@font-size-base * 3);
+    }
+
+		.panel form {
+			margin: 0 auto;
+		}
+		.img-list .col-sm-4 {
+			margin-top: 20px;
+		}
+  }
+
+@media (max-width: @screen-xs-max) {
+		.img-list .col-xs-6 {
+			margin-top: 20px;
+		}
+}

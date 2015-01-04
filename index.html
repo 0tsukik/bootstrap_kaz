@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+</head>
+
+<body>
+	<div class="container">
+  	<header class="row">
+    	<div class="col-sm-3 logo">
+  			<img src="http://lorempixel.com/animal/30/30/" class="img-responsive">
+      </div>
+      <div class="col-sm-9">
+      	<p class="tagline">You're feel at home in our neighborhood</p>
+			</div>
+  	</header>
+    <div class="row">
+    	<nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display-->
+      	<div class="conatainer-fluid">
+        	<div class="navbar-header">
+          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            	<span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">service Consultants</a></li>
+              <li><a href="#">About Consultants</a></li>
+            </ul>
+          </div>
+      	</div>
+      </nav>
+    </div>
+    
+    <div class="row col-md-push-1 col-md-10 col-sm-push-2 col-sm-8">
+    	<div class="form-panel panel panel-info" id="login-panel">
+      	<div class="panel-heading clearfix">
+        	<h3 class="pull-left">Log in</h3>
+          <div class="pull-right form-links"><a href="#" onclick="toggler('signup-panel');">Not a member? Register Now</a></div>
+        </div>
+        <div class="panel-body">
+        	<div class="alert alert-danger">Alert Here</div>
+        	<form action="login.xxx" class="form-horizontal col-sm-10 col-sm-push-1" role="form">
+      			<fieldset>
+            	<legend class="sr-only">Log In</legend>
+            	<div class="form-group">
+                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                <div class="input-group">
+                	<div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                  <input type="text" name="name" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="password">Password</label>
+                <div class="input-group">
+                	<div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                  <input type="text" name="name" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="checkbox">
+                  <label><input type="checkbox" name="remember" value="remember">Remember me</label>
+                </div>
+              </div>
+              <div class="form-group">
+              	<button type="submit" class="btn btn-primary">Log In</button>
+                <button type="submit" class="btn btn-primary">Log In with Facebook</button>
+              </div>
+              <div class="form-group">
+              	<p>Don't have an accoun? <a href="#">Sign up here</a></p>
+                <p><a href="#">Forgot password?</a></p>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      
+      <div class="form-panel panel panel-info" id="login-panel">
+      	<div class="panel-heading clearfix">
+        	<h3 class="pull-left">Log In</h3>
+        </div>
+        <div class="panel-body">
+        	<div class="alert alert-danger">Alert Here</div>
+        	<form action="login.xxx" class="form-horizontal col-sm-10 col-sm-push-1" role="form">
+      			<fieldset>
+            	<legend class="sr-only">Forgot Password</legend>
+              <div class="form-group">
+              	<p>Enter your email below. You will receive the mail to reset your password.</p>
+              </div>
+            	<div class="form-group">
+                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                <div class="input-group">
+                	<div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                  <input type="text" name="name" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+              	<button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+        
+      <div class="form-panel panel panel-info" id="signup-panel">
+        <div class="panel-heading clearfix">
+          <h3 class="pull-left">Sign Up</h3>
+          <div class="pull-right form-links"><a href="#" data-toggle="collapse" data-target="#login-panel">Sign In</a></div>
+        </div>
+        <div class="panel-body">
+          <div class="alert alert-danger">Alert Here</div>
+          <form action="login.xxx" class="form-horizontal col-sm-10 col-sm-push-1" role="form">
+            <fieldset>
+              <legend class="sr-only">Sign Up</legend>
+              <div class="form-group">
+                <label for="fname" class="col-lg-4 control-label">First Name</label>
+                <div class="col-lg-8"><input type="text" name="name" class="form-control" placeholder="First Name"></div>
+              </div>
+              <div class="form-group">
+                <label for="lname" class="col-lg-4 control-label">Last Name</label>
+                <div class="col-lg-8"><input type="text" name="name" class="form-control" placeholder="Last Name"></div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="col-lg-4 control-label">Email</label>
+                <div class="col-lg-8"><input type="text" name="name" class="form-control" placeholder="Email"></div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="col-lg-4 control-label">Invitation Code</label>
+                <div class="col-lg-8"><input type="text" name="name" class="form-control" placeholder="Paste Code Here"></div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-8 col-lg-offset-4">
+                  <button type="submit" class="btn btn-info">Sign Up</button> or 
+                  <button type="submit" class="btn btn-primary">Sign Up with Facebook</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    
+    </div><!-- close container-->
+  
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

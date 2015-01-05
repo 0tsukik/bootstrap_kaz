@@ -10,7 +10,21 @@
 .no-margin {
 	margin: 0;
 }
-
+.ul-inline-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+  li {
+    float: left;
+    display: block;
+  }
+}
+ 
+.ul-block-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+}
 /* With * being xs, sm, md, or lg */
 .visible-*-block {}
 .visible-*-inline {}
@@ -56,13 +70,17 @@
 	margin-bottom: 0;
 }
 
-/* profile styling */
+/* user profile styling */
 .profile dt {
   color:@gray-lightmore;
   border-top: 1px solid @gray-lighter;
 }
 .table-information > tbody > tr:first-child > td {
     border: none;
+}
+#manage-users .panel-heading img  {
+  width: 40px;
+  margin-right: 0.25em;
 }
 
 /* Table Hack for responsive table */
@@ -95,4 +113,7 @@
 		.img-list .col-xs-6 {
 			margin-top: 20px;
 		}
+    #manage-users .panel-heading img  {
+      display: none;
+    }
 }

@@ -4,5 +4,7 @@ jQuery.noConflict();
 
   $('[data-toggle="tooltip"]').tooltip();
   
+  $('.collapse').collapse()
+  
  });
 })(jQuery);

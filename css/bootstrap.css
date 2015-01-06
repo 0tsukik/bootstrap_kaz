@@ -6296,7 +6296,25 @@ button.close {
 .no-margin {
   margin: 0;
 }
-/* With * being xs, sm, md, or lg */
+/* tab styling */
+#myTabFirst .tab-content > .tab-pane {
+  padding: 15px;
+  border: 1px solid #dddddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+#myTabSecond {
+  border: 1px solid #dddddd;
+  border-radius: 4px 4px;
+  padding: 15px 15px 0 15px;
+}
+#myTabSecond .tab-content > .tab-pane {
+  border-top: none;
+}
+/* With * being xs, sm, md, or lg 
+.visible-*-block {}
+.visible-*-inline {}
+.visible-*-inline-block {}*/
 /* header styling */
 .logo img {
   padding: 10px 18px;
@@ -6343,9 +6361,24 @@ button.close {
 .table-information > tbody > tr:first-child > td {
   border: none;
 }
-#manage-users .panel-heading img {
+#manage-users .panel-heading img,
+.panel-view .panel-heading img {
   width: 40px;
-  margin-right: 0.25em;
+  margin-right: 0.5em;
+}
+.panel-view .panel-heading img {
+  width: 20px;
+}
+/* content overview styling */
+.panel-view .progress {
+  width: 50%;
+  line-hight: 10px;
+  position: relative;
+}
+.panel-view .progress span {
+  position: absolute;
+  display: block;
+  width: 100%;
 }
 /* Table Hack for responsive table */
 @-moz-document url-prefix() {
@@ -6375,7 +6408,14 @@ button.close {
   .img-list .col-xs-6 {
     margin-top: 20px;
   }
-  #manage-users .panel-heading img {
+  #manage-users .panel-heading img,
+  #myTabFirst address img {
     display: none;
+  }
+  #manage-users .panel-heading .btn-sm {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
   }
 }

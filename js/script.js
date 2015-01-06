@@ -4,7 +4,8 @@ jQuery.noConflict();
 
   $('[data-toggle="tooltip"]').tooltip();
   
-  $('.collapse').collapse()
-  
+  $('.collapse').collapse();
+
+ // $('#myTabOne a:last').tab('show')
  });
 })(jQuery);

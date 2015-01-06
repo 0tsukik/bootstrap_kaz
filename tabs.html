@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabs</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+</head>
+
+<body>
+	<div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+    	<h2 class="page-header">Tab Pills</h2>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+      <div role="tabpanel" id="myTabSecond">
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills" role="tablist" id="myTabTwo">
+          <li role="presentation" class="active"><a href="#overview" aria-controls="home" role="tab" data-toggle="pill">Overview</a></li>
+          <li role="presentation"><a href="#Events" aria-controls="profile" role="tab" data-toggle="pill">Events</a></li>
+          <li role="presentation"><a href="#groups" aria-controls="groups" role="tab" data-toggle="pill">groups</a></li>
+          <li role="presentation"><a href="#mysettings" aria-controls="settings" role="tab" data-toggle="pill">My Settings</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="overview">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-sm-3 col-md-2">
+                    <address class="center-block">
+                      <img src="http://placehold.it/80" class="img-circle img-responsive" alt="" />
+                      Jan. 19, 2015<br>
+                    </address>
+                    <div class="btn-action">
+                      <button type="button" class="btn btn-primary btn-xs" title="Share">
+                        <span class="glyphicon glyphicon-share"></span>
+                      </button>
+                      <button type="button" class="btn btn-success btn-xs" title="Like">
+                        <span class="glyphicon glyphicon-heart"></span>
+                      </button>
+                      <button type="button" class="btn btn-warning btn-xs" title="Comment">
+                        <span class="glyphicon glyphicon-comment"></span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-9 col-md-10">
+                    <h5><a href="#">ut laoreet dolore magna aliquam erat volutpat ...</a></h5>
+                    <span>By <a href="#">Kauze Otsuki</a></span>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...
+                      <a href="#" class="btn btn-xs btn-default">read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="Events">
+          <div class="col-lg-12">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <i class="glyphicon glyphicon-calendar"></i>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p class="announcement-heading">1</p>
+                    <p class="announcement-text">Users</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <div class="panel-footer announcement-bottom">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      View users
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <i class="glyphicon glyphicon-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+  </div>
+          <div role="tabpanel" class="tab-pane" id="groups">...</div>
+          <div role="tabpanel" class="tab-pane" id="mysettings">...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+    	<h2 class="page-header">Tabs</h2>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+      <div role="tabpanel" id="myTabFirst">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist" id="myTabOne">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Overview</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Events</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-sm-3 col-md-2">
+                    <address class="center-block">
+                      <img src="http://placehold.it/80" class="img-circle img-responsive" alt="" />
+                      Jan. 19, 2015<br>
+                    </address>
+                    <div class="btn-action">
+                      <button type="button" class="btn btn-primary btn-xs" title="Share">
+                        <span class="glyphicon glyphicon-share"></span>
+                      </button>
+                      <button type="button" class="btn btn-success btn-xs" title="Like">
+                        <span class="glyphicon glyphicon-heart"></span>
+                      </button>
+                      <button type="button" class="btn btn-warning btn-xs" title="Comment">
+                        <span class="glyphicon glyphicon-comment"></span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-9 col-md-10">
+                    <h5><a href="#">ut laoreet dolore magna aliquam erat volutpat ...</a></h5>
+                    <span>By <a href="#">Kauze Otsuki</a></span>
+                    <p class="comment-text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...
+                      <a href="#" class="btn btn-xs btn-default">read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">...</div>
+          <div role="tabpanel" class="tab-pane" id="messages">...</div>
+          <div role="tabpanel" class="tab-pane" id="settings">...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    </div><!-- close container-->
+  
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

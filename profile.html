@@ -78,9 +78,8 @@
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingOne">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" aria-expanded="false">
-              <img src="http://lorempixel.com/130/130/people/?1" class="img-circle">
-              User Firstname Lastname
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" aria-expanded="false">
+              <img src="http://lorempixel.com/130/130/people/?1" class="img-circle">Firstname Lastname
               </a>
               <div class="pull-right">
                 <a href="#" class="btn btn-sm btn-primary" title="Info" data-toggle="tooltip" data-placement="top"><i class="glyphicon glyphicon-list-alt"></i></a>
@@ -89,7 +88,69 @@
               </div>
             </h4>
           </div>
-          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <table class="table table-information">
+                  <tbody>
+                    <tr>
+                      <td>Name:</td>
+                      <td>Kazue Otsuki Plus <small>Administrator</small></td>
+                    </tr>
+                    <tr>
+                      <td>Date of Birth:</td>
+                      <td>December 25, 1942</td>
+                    </tr>
+                    <tr>
+                      <td>Gender:</td>
+                      <td>Male</td>
+                    </tr>
+                    <tr>
+                      <td>Address:</td>
+                      <td>
+                        <address class="no-margin">
+                          <strong>Twitter, Inc.</strong><br>
+                          795 Folsom Ave, Suite 600<br>
+                          San Francisco, CA 94107
+                        </address>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Email:</td>
+                      <td>kazuester@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Phone:</td>
+                      <td>206-659-8851</td>
+                    </tr>
+                    <tr>
+                      <td>Occupation:</td>
+                      <td>Web Designer</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="panel-footer clearfix">
+              <div class="pull-right">
+                <a class="btn btn-xs btn-success" href="#"><i class="glyphicon glyphicon-thumbs-up"></i> Add reputation</a> 
+                <a class="btn btn-xs btn-danger" href="#"><i class="glyphicon glyphicon-thumbs-down"></i> Decrease reputation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" aria-expanded="false">
+              <img src="http://lorempixel.com/130/130/people/?1" class="img-circle">Firstname Lastname
+              </a>
+              <div class="pull-right">
+                <a href="#" class="btn btn-sm btn-primary" title="Info" data-toggle="tooltip" data-placement="top"><i class="glyphicon glyphicon-list-alt"></i></a>
+                <a href="#" class="btn btn-sm btn-warning" title="Edit" data-toggle="tooltip" data-placement="top"><i class="glyphicon glyphicon-pencil"></i></a>
+                <a href="#" class="btn btn-sm btn-danger" title="remove" data-toggle="tooltip" data-placement="top"><i class="glyphicon glyphicon-remove"></i></a>
+              </div>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body">
                 <table class="table table-information">
                   <tbody>
@@ -132,7 +193,6 @@
             </div>
             <div class="panel-footer clearfix">
               <div class="pull-right">
-                <span class="btn">Actions: </span>
                 <a class="btn btn-xs btn-success" href="#"><i class="glyphicon glyphicon-thumbs-up"></i> Add reputation</a> 
                 <a class="btn btn-xs btn-danger" href="#"><i class="glyphicon glyphicon-thumbs-down"></i> Decrease reputation</a>
               </div>
@@ -149,7 +209,7 @@
     	<h2 class="page-header">Profile 2: Using table for user data</h2>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      <div class="panel panel-default ">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Profile</h3>
         </div>

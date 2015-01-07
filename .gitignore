@@ -21,3 +21,5 @@ build/*
 # Exclude log files
 *.log
 
+# Exclude prepro files
+*.cfg
